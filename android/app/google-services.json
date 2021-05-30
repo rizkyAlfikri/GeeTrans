@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351065022971",
+    "firebase_url": "https://geetrans-default-rtdb.firebaseio.com",
+    "project_id": "geetrans",
+    "storage_bucket": "geetrans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351065022971:android:0d2d0b3c55d40aa5deab5e",
+        "android_client_info": {
+          "package_name": "com.alfikri.rizky.geetrans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351065022971-8boan4f23kdopiee5inc8gknla44vbav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alfikri.rizky.geetrans",
+            "certificate_hash": "b57af7648ee8e4b03af73523f56292c36b108ac9"
+          }
+        },
+        {
+          "client_id": "351065022971-33m0ugse512r41vo7g21hb9o195jjj6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxiz7lZ5J4egQoPl71fPumCj2sp4LxYlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351065022971-33m0ugse512r41vo7g21hb9o195jjj6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
