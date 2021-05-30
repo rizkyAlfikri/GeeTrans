@@ -18,12 +18,12 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Alfi-Regular',
         primarySwatch: Colors.blue,
       ),
+      initialRoute: MainPage.id,
       routes: {
         MainPage.id: (context) => MainPage(),
         LoginPage.id: (context) => LoginPage(),
         RegistrationPage.id: (context) => RegistrationPage(),
       },
-      home: RegistrationPage(),
     );
   }
 }

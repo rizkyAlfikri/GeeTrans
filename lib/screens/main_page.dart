@@ -7,23 +7,30 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+
+  Completer<GoogleMapController> _completer  = Completer();
+  late GoogleMapController _mapController;
+
+   static final CameraPosition _kGooglePlex = CameraPosition(
+    target: LatLng(37.42796133580664, -122.085749655962),
+    zoom: 14.4746,
+  );
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Main Page'),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            DatabaseReference dbref =
-                FirebaseDatabase.instance.reference().child('Test');
-            dbref.set('IsConnected').onError(
-                (error, stackTrace) => debugPrint("$error | ${stackTrace}"));
-          },
-          child: Text('Test Connection'),
-        ),
-      ),
+     
+      body: Stack(
+        children: <Widget>[
+          GoogleMap(initialCameraPosition: _kGooglePlex, 
+          mapType: MapType.normal,
+          myLocationButtonEnabled: true,
+          onMapCreated: (GoogleMapController controller) {
+            _completer.complete(controller);
+            _mapController =  controller;
+          },)
+        ],
+      )
     );
   }
 }
