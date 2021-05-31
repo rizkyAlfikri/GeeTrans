@@ -5,3 +5,4 @@ import 'package:geetrans/resource/resources.dart';
 part 'primary_button.dart';
 part 'progress_dialog.dart';
 part 'util_widget.dart';
+part 'divider_widget.dart';
