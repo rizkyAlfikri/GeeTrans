@@ -1,9 +1,9 @@
-GeeTrans 🚗
+# GeeTrans 🚗
 A Flutter-based ride-handling application.
 
 GeeTrans enables users to request rides, track drivers, and manage trip history across Android, iOS, and Web platforms.
 
-🧭 Features
+## 🧭 Features
 Request and dispatch rides
 
 Real-time trip tracking with maps
@@ -14,10 +14,10 @@ Trip history and receipts
 
 Cross-platform support: Android, iOS, and Web
 
-⚙️ Architecture & Tech Stack
+##  ⚙️ Architecture & Tech Stack
 Flutter (Dart): UI and cross-platform logic
 
-State management: Bloc / Provider / Riverpod (adjust to match code)
+State management: Bloc
 
 Platform support:
 
@@ -37,7 +37,7 @@ widgets/: UI components (buttons, maps, cards)
 
 Testing: Unit and widget tests in test/
 
-🚀 Getting Started
+##  🚀 Getting Started
 Install Flutter SDK – follow Flutter installation guide.
 
 Clone the repo
@@ -67,14 +67,14 @@ iOS: flutter run -d ios
 
 Web: flutter run -d chrome
 
-🧪 Running Tests
+##  🧪 Running Tests
 bash
 Copy
 Edit
 flutter test
 This will execute all unit and widget tests in the test/ directory.
 
-🧩 Project Structure
+## 🧩 Project Structure
 bash
 Copy
 Edit
